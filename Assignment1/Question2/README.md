@@ -356,9 +356,6 @@ This report compares the performance of matrix multiplication implementations in
 
 ### Observations
 
-### Meat Portion
-- The fraction of meat portion of the computation increases with the increase in N. This accounts for the fact that the other computations stays almost constant and the only variable is the size of the matrix.
-
 #### System Time
 - **C++**: System time is minimal and consistent across matrix sizes, indicating low system overhead.
 - **Python**: System time is higher and increases with matrix size, reflecting greater system-level overhead.
@@ -372,6 +369,7 @@ This report compares the performance of matrix multiplication implementations in
 - **Python**: Higher total execution time, with \(N = 1024\) showing around 859.94 seconds for integers and 868.96 seconds for doubles.
 
 #### Meat Portion
+- The fraction of meat portion of the computation increases with the increase in N. This accounts for the fact that the other computations stays almost constant and the only variable is the size of the matrix.
 - **C++**: More efficient computation time (meat portion) compared to Python. For \(N = 1024\), the meat portion is around 6.07 seconds for integers and 6.92 seconds for doubles.
 - **Python**: Higher computation time (meat portion), with \(N = 1024\) showing around 859.87 seconds for integers and 858.57 seconds for doubles.
 
