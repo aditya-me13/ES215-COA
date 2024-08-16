@@ -42,7 +42,7 @@ time python program_file.py
     - **System Time:** The amount of CPU time spent executing system-level instructions on behalf of the process.
 
 ### C++ Int:
-Refer to [Mat_Mul_Int.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question2/Mat_Mul_Int.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
+Refer to [Mat_Mul_Int.cpp](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question2/Mat_Mul_Int.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
 
 > User CPU Time
 
@@ -83,7 +83,7 @@ All units in seconds unless stated otherwise
 
 
 ### C++ Double:
-Refer to [Mat_Mul_Double.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question2/Mat_Mul_Double.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
+Refer to [Mat_Mul_Double.cpp](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question2/Mat_Mul_Double.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
 
 > User CPU Time
 
@@ -122,7 +122,7 @@ All units in seconds unless stated otherwise
 | 1024 | 6.98      | 7.38      | 6.95      | 6.98      | 7.07      | 6.952    | 6.98       |
 
 ### python Int:
-Refer to [Mat_Mul_Int.py](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question2/Mat_Mul_Int.py) for the code. The time taken to execute the program for 5 different times are as follows:
+Refer to [Mat_Mul_Int.py](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question2/Mat_Mul_Int.py) for the code. The time taken to execute the program for 5 different times are as follows:
 
 > User CPU Time
 
@@ -162,7 +162,7 @@ All units in seconds unless stated otherwise
 | 1024 | 835.79    | 863.17    | 859.94    | 846.11    | 859.48    | 852.64   | 859.94     |
 
 ### python Double:
-Refer to [Mat_Mul_Double.py](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question2/Mat_Mul_Double.py) for the code. The time taken to execute the program for 5 different times are as follows:
+Refer to [Mat_Mul_Double.py](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question2/Mat_Mul_Double.py) for the code. The time taken to execute the program for 5 different times are as follows:
 
 > User CPU Time
 
@@ -226,7 +226,7 @@ time_taken = end - start
 
 ### C++ Int:
 
-Refer to [Mat_Mul_Int.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question2/Mat_Mul_Int.cpp) for the code. The time taken to execute the meat part of the program for 5 different times are as follows:
+Refer to [Mat_Mul_Int.cpp](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question2/Mat_Mul_Int.cpp) for the code. The time taken to execute the meat part of the program for 5 different times are as follows:
 
 All units in seconds unless stated otherwise
 
@@ -240,7 +240,7 @@ All units in seconds unless stated otherwise
 
 ### C++ Double:
 
-Refer to [Mat_Mul_Double.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question2/Mat_Mul_Double.cpp) for the code. The time taken to execute the meat part of the program for 5 different times are as follows:
+Refer to [Mat_Mul_Double.cpp](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question2/Mat_Mul_Double.cpp) for the code. The time taken to execute the meat part of the program for 5 different times are as follows:
 
 All units in seconds unless stated otherwise
 
@@ -256,7 +256,7 @@ All units in seconds unless stated otherwise
 
 ### python Int:
 
-Refer to [Mat_Mul_Int.py](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question2/Mat_Mul_Int.py) for the code. The time taken to execute the meat part of the program for 5 different times are as follows:
+Refer to [Mat_Mul_Int.py](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question2/Mat_Mul_Int.py) for the code. The time taken to execute the meat part of the program for 5 different times are as follows:
 
 All units in seconds unless stated otherwise
 
@@ -270,7 +270,7 @@ All units in seconds unless stated otherwise
 
 ### python Double 
 
-Refer to [Mat_Mul_Double.py](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question2/Mat_Mul_Double.py) for the code. The time taken to execute the meat part of the program for 5 different times are as follows:
+Refer to [Mat_Mul_Double.py](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question2/Mat_Mul_Double.py) for the code. The time taken to execute the meat part of the program for 5 different times are as follows:
 
 All units in seconds unless stated otherwise
 

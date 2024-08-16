@@ -22,7 +22,7 @@ Tips: Measure the time taken by the program on the CPU using timespec.
 
 
 ## Part A:
-Refer to [Recursion.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question1/Recursion.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
+Refer to [Recursion.cpp](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question1/Recursion.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
 1. 112.178 seconds
 2. 111.796 seconds
 3. 111.393 seconds
@@ -36,7 +36,7 @@ Refer to [Recursion.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/As
 **Standard Deviation :** 0.610796 seconds
 
 ## Part B:
-Refer to [Loop.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question1/Loop.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
+Refer to [Loop.cpp](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question1/Loop.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
 1. 0.000160 seconds
 2. 0.000178 seconds
 3. 0.000187 seconds
@@ -50,7 +50,7 @@ Refer to [Loop.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignm
 **Standard Deviation :** 0.000025 seconds
 
 ## Part C:
-Refer to [Rec_Memo.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question1/Rec_Memo.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
+Refer to [Rec_Memo.cpp](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question1/Rec_Memo.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
 1. 0.000255 seconds
 2. 0.000242 seconds
 3. 0.000194 seconds
@@ -64,7 +64,7 @@ Refer to [Rec_Memo.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Ass
 **Standard Deviation :** 0.000035 seconds
 
 ## Part D:
-Refer to [Loop_Memo.cpp](https://github.com/aditya-me13/ES215-IITGN/blob/main/Assignment1/Question1/Loop_Memo.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
+Refer to [Loop_Memo.cpp](https://github.com/aditya-me13/ES215-COA/blob/main/Assignment1/Question1/Loop_Memo.cpp) for the code. The time taken to execute the program for 5 different times are as follows:
 1. 0.000236 seconds
 2. 0.000291 seconds
 3. 0.000168 seconds
