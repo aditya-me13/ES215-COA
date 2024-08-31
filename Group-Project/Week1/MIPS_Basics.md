@@ -47,4 +47,3 @@
   - R-type:
   - I type:
   - J type:
-
