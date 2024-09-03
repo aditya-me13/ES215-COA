@@ -4,7 +4,9 @@
 ### Example1:
 
 High Level Code:
-``` a = b + c ```
+```python
+a = b + c 
+```
 - Operation: Addition
 - Source Operands: b, c
 - Destination Operand: a
@@ -27,7 +29,7 @@ High Level Code:
 
 MIPS assembly code:
 
-```
+```python
 add t,b,c # t = b + c
 sub a,t,d # a = t - d 
 ```
