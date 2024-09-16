@@ -10,6 +10,7 @@ This program implements a search for a given number in a sorted list of 10 numbe
 2. Use a loop to compare each number in the list with the given number.
 3. If the number is found, store `1` in the output, the number of iterations, and the index of the found number.
 4. If the number is not found, store `2` in the output.
+5. We are assuming that the `numbers` stores the value of the firs number of the list.
 
 ### Instructions:
 
@@ -52,9 +53,5 @@ found:
 # End of the program
 end_program:
     nop                          # No operation (end of the program)
+```
 
-# Data section
-    .data
-X:      .word 5                   # The given number to search for (replace with actual value)
-numbers: .word 1, 2, 3, 4, 5, 6, 7, 8, 9, 10   # The sorted list of 10 numbers
-output:  .space 12                # Space to store the result (1 or 2), number of iterations, and index

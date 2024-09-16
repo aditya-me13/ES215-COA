@@ -11,6 +11,10 @@ This program demonstrates how to calculate the product of two numbers without us
 3. Use a loop and decrement the second number until it reaches zero.
 4. Store the result in a register.
 
+### Assumptions:
+1. `num1` stores the address where the first number is stored.
+2. `num2` stores the address where the second number is stored.
+
 ### Instructions:
 
 ```mips
@@ -33,3 +37,4 @@ mult_loop:
 mult_done:
     move    $t4, $t2                # Move the result to $t4
 ```
+We can further store the result from the register `$t4` to any desired memory location we want.

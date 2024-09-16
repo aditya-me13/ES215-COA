@@ -6,7 +6,7 @@ Write a program in assembly language to subtract two 16 bit numbers without usin
 
 ## Solution:
 
-This program demonstrates how to subtract two 16-bit numbers stored in memory without using the `sub` (subtraction) instruction. The numbers are fetched from the memory, where the stack pointer (`$sp`) points to the first number, and the second number is located just below the first number.
+This program demonstrates how to subtract two 16-bit numbers stored in memory without using the `sub` (subtraction) instruction. The numbers are fetched from the memory, where the stack pointer (`$sp`) points to the first number, and (assuming) the second number is located just below the first number. Here we are assuming that we want to substract the second number from the first number.
 
 ### Steps:
 1. Fetch the two numbers from memory into registers.
@@ -16,8 +16,7 @@ This program demonstrates how to subtract two 16-bit numbers stored in memory wi
 ### Instructions:
 
 ```mips
-# Load the first half-word (16-bit) from the top of the stack into register $s0
-# and the second half-word (at an offset of 4 bytes from the top of the stack) into register $s1
+# Load the first half-word (16-bit) from the top of the stack into register $s0 and the second half-word (at an offset of 4 bytes from the top of the stack) into register $s1
 lh      $s0, 0($sp)
 lh      $s1, 4($sp)
 
@@ -29,3 +28,6 @@ addi    $s1, $s1, 1
 
 # Add the first number and the negated second number, storing the result in register $t0
 add     $t0, $s0, $s1
+```
+
+We can further store the result from the register `$t0` to any desired memory location we want.

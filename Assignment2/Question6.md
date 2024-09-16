@@ -10,6 +10,7 @@ This program demonstrates how to search for a given character in a string. If th
 2. Use a loop to compare each character in the string with the given character.
 3. If the character is found, store `1` in the output and store the index of the character.
 4. If the character is not found, store `2` in the output.
+5. Assuming that `char` stores the address to the character we are looking for and `string` stores the address of the first character of the string we are searching into.
 
 ### Instructions:
 
@@ -47,9 +48,5 @@ found:
 # End of the program
 end_program:
     nop                           # No operation (end of the program)
+```
 
-# Data section
-    .data
-char:    .byte 'a'                # The character to search for (replace 'a' with desired character)
-string:  .asciiz "hello world"     # The string to search in (replace with the actual string)
-output:  .space 8                 # Space to store the result and the index of the found character

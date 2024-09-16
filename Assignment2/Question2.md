@@ -3,7 +3,7 @@ Write an assembly language program to find the average of 15 numbers stored at c
 
 ## Solution:
 
-This program demonstrates how to find the average of 15 numbers that are stored consecutively in memory. The program fetches each number, sums them, and then divides the sum by 15 to calculate the average.
+This program demonstrates how to find the average of 15 numbers that are stored consecutively in memory. The program fetches each number, sums them, and then divides the sum by 15 to calculate the average. Overflow of the digits is not taken into account in this problem.
 
 ### Steps:
 1. Initialize a loop to iterate over the 15 consecutive memory locations.
@@ -11,6 +11,8 @@ This program demonstrates how to find the average of 15 numbers that are stored 
 3. Divide the total sum by 15 to compute the average.
 4. Store the result in a register.
 
+### Assumptions:
+1. `numbers` store the memory address of the first number in the memory
 ### Instructions:
 
 ```mips
@@ -34,3 +36,5 @@ sum_loop:
     div     $t0, $t1        # Divide the sum by 15
     mflo    $t4             # Move the quotient (average) into $t4
 ```
+
+We can further store the result from the register `$t4` to any desired memory location we want.
