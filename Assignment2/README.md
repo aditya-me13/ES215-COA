@@ -5,8 +5,10 @@
 **Student Name**: Aditya Mehta  
 **Roll Number**: 22110017
 
-Each question is submitted in a different markdown file named `QuestionX.md`. Each file has a bit of explainatin of the solution and the Assembly Code.
+---
+### Navigation:
+- Each question is provided in a separate markdown file named `QuestionX.md`. Each file includes a brief explanation of the solution along with the corresponding assembly code.
 
 ### Assumptions:
-- Only the `main` portion of the assembly code is demonstrated in this assignment, as per the class instructions.
-- The `.data` section and other syntactical details are omitted from the assembly code for simplicity.
+- The provided assembly code includes only the `main` portion, as instructed in the class.
+- The `.data` section and other syntactical details are excluded from the assembly code for simplicity.
