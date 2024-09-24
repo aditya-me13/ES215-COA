@@ -22,6 +22,24 @@ Assume 2ns for instruction/data memory, 1ns for decode/register read, 2ns for AL
 
 So that clock period to be used for single cycle processor is max(8,7,6,5) = **8ns**.
 
+## Short vs Long Jumps in MIPS:
+
+- The op code for jump instruction has the devision as 6 bits and the rest of the 26 bits are used for the address.
+- The 26 bits are then shifted left by 2 bits with 0s in the 2 rightmost bits.
+
+### Short Jump:
+- We use the 4 bits from the PC as the 4 bits of the address to make it 32 bits.
+
+### Long Jump:
 
 
-
+| Stack |
+| --- | 
+| |
+| |
+| |
+| Heap |
+| |
+| Data |
+| | 
+| Code | 
