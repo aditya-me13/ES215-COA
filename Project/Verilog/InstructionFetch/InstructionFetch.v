@@ -20,13 +20,11 @@ module InstructionFetch (
     //     .instruction(instruction)
     // );
 
-    blk_mem_gen_0 instr_mem (
-    .clka(clk),
+    InstructionMemory instr_mem (
+    .clk(clk),
     .ena(ena),
-    .wea(wea),
-    .addra(pc_out),
-    .dina(dina),
-    .douta(instruction)
+    .PC(pc_out),
+    .instruction(instruction)
     );
 
     NextPC next_pc_mux (
