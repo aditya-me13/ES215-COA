@@ -8,14 +8,13 @@
 module TopModule(
     input slow_clk,      // Input clock (fast)
     input reset,     // Reset signal for the Program Counter
-    output reg [31:0] view 
-);
-    
-
-    // Slow clock for the program execution
-//    wire slow_clk;
-//    SlowClockDivider clk_div(.clk_in(clk), .clk_out(slow_clk));
-    
+    output reg [31:0] v_PCOut,
+    output reg [31:0] v_instr,
+    output reg [31:0] v_data,
+    output reg [31:0] v_A,
+    output reg [31:0] v_B,
+    output reg [31:0] v_ALUOut
+);    
     // Control Signals
     wire PCEn;
     wire PCWrite;
@@ -169,7 +168,12 @@ module TopModule(
     assign PCEn = (Zero & Branch) | PCWrite;
         
     always @(*) begin
-        view = ALUOut;
+        v_PCOut = PCOut;
+        v_instr = instr;
+        v_data = data;
+        v_A = A;
+        v_B = B;
+        v_ALUOut = ALUOut;
     end  
     
 endmodule
