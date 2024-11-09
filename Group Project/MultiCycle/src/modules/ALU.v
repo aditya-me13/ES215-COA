@@ -9,7 +9,6 @@ module ALU(
 );
     
     always @(*) begin
-       
         case(ALUControl)
             4'b000: ALUResult = operand1 & operand2;           // BITWISE AND
             4'b001: ALUResult = operand1 | operand2;           // BITWISE OR
