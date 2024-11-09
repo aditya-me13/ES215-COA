@@ -7,13 +7,13 @@ Full FPGA implementation for MIPS. Define the data-card with ISA support, Memory
 ### Features (Implemented till date):
 - [x] MIPS ISA support.
 - [x] Memory block RAM usage.
-- [ ] Program fed through initial block RAM.
-- [ ] Full FPGA implementation of 5 stages.
+- [x] Program fed through initial block RAM.
+- [x] Full FPGA implementation of 5 stages.
     - [x] Instruction Fetch.
     - [x] Instruction Decode.
-    - [ ] Execution.
-    - [ ] Memory Access.
-    - [ ] Write Back.
+    - [x] Execution.
+    - [x] Memory Access.
+    - [x] Write Back.
 - [x] Output on 7 segment LED display.
 - [x] Memory mapped IO.
 
